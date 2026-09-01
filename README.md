@@ -38,7 +38,7 @@ The directories under `scripts/` and `data/example/` use the same module names:
 | `04-functional-analysis` | Organ-specific gene sets, ssGSEA, and pathway-level linear models |
 | `05-survival-analysis` | Cox proportional-hazards models |
 
-## Example inputs
+## Example Data
 
 | Module | Files provided |
 | --- | --- |
@@ -62,7 +62,7 @@ python -m pip install -r requirements.txt
 
 R package requirements are listed in `docs/r-packages.txt`. 
 
-## Running examples
+## Usage
 
 Run scripts from the matching example directory.
 
@@ -76,7 +76,7 @@ cd ../02-organ-risk
 python ../../../scripts/02-organ-risk/organ-risk-index.py
 ```
 
-## Input requirement
+## Input Requirement
 
 - Sample IDs must match exactly across files used in the same analysis.
 - Clinical groups are encoded as `NC` and `AD`.
@@ -89,3 +89,9 @@ See `docs/data-dictionary.md` for column definitions.
 ## License
 
 The code is released under the MIT License.
+
+## Contact
+
+For questions, collaborations, or bug reports, please open an issue or contact:
+
+[xhchena@ust.hk](mailto:xhchena@ust.hk);[xjy005351@siat.ac.cn](mailto:xjy005351@siat.ac.cn).
