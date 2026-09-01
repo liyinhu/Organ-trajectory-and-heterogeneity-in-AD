@@ -1,0 +1,9 @@
+Sample_ID,Group,E4_status,Range
+Sample_1,NC,E4_nocarrier,Range_1
+Sample_2,AD,E4_nocarrier,Range_2
+Sample_3,NC,E4_carrier,Range_3
+Sample_4,AD,E4_nocarrier,Range_4
+Sample_5,NC,E4_nocarrier,Range_1
+Sample_6,AD,E4_carrier,Range_2
+Sample_7,NC,E4_nocarrier,Range_3
+Sample_8,AD,E4_nocarrier,Range_4
