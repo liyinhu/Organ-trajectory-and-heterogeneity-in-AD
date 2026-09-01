@@ -1,0 +1,22 @@
+# CRAN packages
+vegan
+dplyr
+glmnet
+caret
+tibble
+NMF
+Cairo
+bootnet
+corpcor
+readr
+tidyr
+msigdbr
+data.table
+survival
+
+# Bioconductor packages
+Mfuzz
+Biobase
+clusterProfiler
+org.Hs.eg.db
+GSVA
