@@ -1,7 +1,7 @@
 # Organ-trajectory-and-heterogeneity-in-AD
 
 <p align="center">
-  <img src="Figures/Overview.png" width="950">
+  <img src="Figures/figure-1.png" width="950">
 </p>
 
 <p align="center">
