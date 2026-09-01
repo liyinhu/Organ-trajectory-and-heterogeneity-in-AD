@@ -14,7 +14,7 @@ Overview of the study.
 This repository contains the analysis code and example files for a plasma proteomics study of Alzheimer’s disease (AD). The project uses plasma protein profiles to derive organ-resolved risk indices and characterize their trajectories and heterogeneity during the years preceding AD.
 
 
-## Repository structure
+## Repository Structure
 
 ```text
 .
@@ -62,7 +62,7 @@ python -m pip install -r requirements.txt
 
 R package requirements are listed in `docs/r-packages.txt`. 
 
-## Running the examples
+## Running examples
 
 Run scripts from the matching example directory.
 
@@ -76,7 +76,7 @@ cd ../02-organ-risk
 python ../../../scripts/02-organ-risk/organ-risk-index.py
 ```
 
-## Input conventions
+## Input requirement
 
 - Sample IDs must match exactly across files used in the same analysis.
 - Clinical groups are encoded as `NC` and `AD`.
