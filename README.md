@@ -75,22 +75,9 @@ Rscript ../../../scripts/01-proteome/02-differential-analysis.R
 cd ../02-organ-risk
 python ../../../scripts/02-organ-risk/organ-risk-index.py
 
-# Survival analysis using the default example filenames
-cd ../05-survival-analysis
-Rscript ../../../scripts/05-survival-analysis/cox-analysis.R
-```
-
-The Cox script defaults to `organ_risk_index.csv`, `sample_metadata.csv`, and the output directory `cox-results`. Custom paths can also be supplied:
-
-```bash
-Rscript scripts/05-survival-analysis/cox-analysis.R \
-  ORGAN_INDEX.csv SAMPLE_METADATA.csv OUTPUT_DIR
-```
-
 
 ## Input conventions
 
-- The first column of each matrix contains sample, feature, or pathway IDs.
 - Sample IDs must match exactly across files used in the same analysis.
 - Clinical groups are encoded as `NC` and `AD`.
 - Organ mappings are tab-separated files with columns `Organ` and `Protein`.
