@@ -1,0 +1,7 @@
+Sample_ID,Group,Sex,Age,TDI,HQ,E4_status
+Sample_1,AD,M,65,-0.42,bachelor_degree_or_higher,E4_carrier
+Sample_2,NC,F,58,1.15,junior_high_school,E4_nocarrier
+Sample_3,AD,F,72,0.88,senior_high_school,E4_carrier
+Sample_4,NC,M,61,-1.05,professional_qualifications,E4_nocarrier
+Sample_5,AD,M,69,0.23,None_of_any_above,E4_carrier
+Sample_6,NC,F,55,-0.78,bachelor_degree_or_higher,E4_nocarrier
