@@ -74,7 +74,7 @@ Rscript ../../../scripts/01-proteome/02-differential-analysis.R
 # Organ risk index
 cd ../02-organ-risk
 python ../../../scripts/02-organ-risk/organ-risk-index.py
-
+```
 
 ## Input conventions
 
