@@ -1,4 +1,4 @@
-# Organ-trajectory-and-heterogeneity-in-AD
+# Organ trajectory and heterogeneity in AD
 
 <p align="center">
   <img src="figures/figure-1.png" width="950">
