@@ -25,7 +25,7 @@ This repository contains the analysis code and example files for a plasma proteo
 |-- .gitignore
 |-- LICENSE
 |-- README.md
-`-- requirements.txt
+`-- Requirements.txt
 ```
 
 The directories under `scripts/` and `data/example/` use the same module names:
