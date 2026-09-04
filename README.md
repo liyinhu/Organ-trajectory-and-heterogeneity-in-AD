@@ -11,7 +11,7 @@ Overview of the study.
 
 # Overview
 
-This repository contains the analysis code and example files for a plasma proteomics study of Alzheimer’s disease (AD). The project uses plasma protein profiles to derive organ-resolved risk indices and characterize their trajectories and heterogeneity during the years preceding AD.
+This repository contains the analysis code and example files for a plasma proteomics study of Alzheimer’s disease (AD). The project uses plasma protein profiles to derive organ-resolved risk indices and characterize their trajectories and heterogeneity during the 15 years preceding AD.
 
 
 ## Repository Structure
