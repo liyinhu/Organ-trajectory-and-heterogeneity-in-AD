@@ -94,4 +94,4 @@ The code is released under the MIT License.
 
 For questions, collaborations, or bug reports, please open an issue or contact:
 
-Xuhua CHEN, [xhchena@ust.hk](mailto:xhchena@ust.hk); Yinhu LI, [xjy005351@siat.ac.cn](mailto:xjy005351@siat.ac.cn).
+Xuhua CHEN, [xhchena@ust.hk](mailto:xhchena@ust.hk); Mingfeng GUAN, [mf.guan@siat.ac.cn](mailto:mf.guan@siat.ac.cn); Yinhu LI, [xjy005351@siat.ac.cn](mailto:xjy005351@siat.ac.cn).
