@@ -52,7 +52,7 @@ The example files are synthetic and intended to demonstrate input schemas. They 
 
 ## Installation
 
-Python 3.10+ dependencies are listed in `requirements.txt`:
+Python 3.10+ dependencies are listed in `Requirements.txt`:
 
 ```bash
 python -m venv .venv
