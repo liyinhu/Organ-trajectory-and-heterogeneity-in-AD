@@ -48,7 +48,7 @@ The directories under `scripts/` and `data/example/` use the same module names:
 | `04-functional-analysis` | `protein_adjusted.csv`, `protein_to_organ.tsv`, `organ_pathway_scores.csv`, `sample_metadata.csv` |
 | `05-survival-analysis` | `organ_risk_index.csv`, `sample_metadata.csv` |
 
-The example files are synthetic and intended to demonstrate input schemas. They are not study data and are too small for reliable scientific inference.
+The example files are synthetic and intended to demonstrate input schemas. They are not real study data.
 
 ## Installation
 
@@ -60,7 +60,16 @@ source .venv/bin/activate       # Windows: .venv\Scripts\activate
 python -m pip install -r Requirements.txt
 ```
 
-R package requirements are listed in `docs/r-packages.txt`. 
+R 4.4.1+ package requirements are listed in `docs/r-packages.txt`. 
+
+```r
+install.packages("BiocManager")
+packages <- scan("docs/r-packages.txt", what = character(), comment.char = "#", quiet = TRUE)
+BiocManager::install(packages, ask = FALSE, update = FALSE)
+```
+
+- **Tested environment:** [Ubuntu 22.04.5 LTS], [Intel Xeon(R) Platinum 8383C CPU and 512GB RAM], [Python 3.12.4], [R 4.4.1]. 
+- **Typical installation time:** approximately 30 minutes for Python dependencies and 15 minutes for the R packages on the computer above, with Python and R already installed.
 
 ## Usage
 
@@ -73,8 +82,11 @@ Rscript ../../../scripts/01-proteome/02-differential-analysis.R
 
 # Organ risk index
 cd ../02-organ-risk
-python ../../../scripts/02-organ-risk/organ-risk-index.py
+python ../../../scripts/02-organ-risk/01-organ-risk-index.py
 ```
+
+- **Differential analysis:** writes `data/example/01-proteome/diff/differential_results.csv` with one row per protein feature and columns for the effect estimate, standard error, t statistic, P value and adjusted FDR. Expected runtime is approximately 1 minute.
+- **Organ risk index:** writes five CSV files under `data/example/02-organ-risk/results/` with mean risk scores, score standard deviations and an organ-level AUC summary. Expected runtime is approximately 20 minutes with the script's default settings.
 
 ## Input Requirement
 
