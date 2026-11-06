@@ -57,7 +57,7 @@ Python 3.10+ dependencies are listed in `Requirements.txt`:
 ```bash
 python -m venv .venv
 source .venv/bin/activate       # Windows: .venv\Scripts\activate
-python -m pip install -r requirements.txt
+python -m pip install -r Requirements.txt
 ```
 
 R package requirements are listed in `docs/r-packages.txt`. 
